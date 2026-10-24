@@ -1,0 +1,10 @@
+{
+  "seed": 20261024,
+  "n_splits": 5,
+  "ridge_alpha": 100.0,
+  "validation_version": "exploratory-beer-sorted-shuffled-kfold-v0",
+  "metric_version": "standardized-oof-regression-v0",
+  "expected_samples": 250,
+  "expected_features": 231,
+  "expected_targets": 50
+}

@@ -1,0 +1,56 @@
+{
+  "checked_at_utc_plus_8": "2026-10-24T17:26:23+08:00",
+  "scope": "A same-environment engineering audit, not C independent acceptance",
+  "runs": {
+    "A-20261024-001": {
+      "status": "completed",
+      "artifact_count_verified": 24,
+      "inputs_unchanged": true,
+      "current_source_matches_run": true
+    },
+    "A-20261024-002": {
+      "status": "completed",
+      "artifact_count_verified": 24,
+      "inputs_unchanged": true,
+      "current_source_matches_run": true
+    }
+  },
+  "byte_identical_files": {
+    "folds.csv": true,
+    "fold_style_counts.csv": true,
+    "oof_predictions.csv": true,
+    "target_metrics.csv": true,
+    "fold_target_metrics.csv": true,
+    "style_metrics.csv": true,
+    "preprocessing_by_fold.json": true,
+    "data_audit.json": true,
+    "requested_config.json": true,
+    "resolved_config.json": true
+  },
+  "metrics_exactly_equal": true,
+  "source_fingerprint_sha256": "f4aabe489d7c25c034154c21541f1b482a9ebed3d24611ca5a71d14fa56b2e7b",
+  "folds_sha256": "41847893cdfdf804e723a0fb9eac089678f59a9913f876e1ff51822c99b4407e",
+  "oof_rows": 25000,
+  "oof_unique_complete_finite": true,
+  "metrics": {
+    "train_mean": {
+      "macro_target_mae": 0.4175462644176864,
+      "macro_target_rmse": 0.5691845508928198,
+      "macro_target_r2_defined_only": -0.008893641616242225,
+      "r2_defined_target_count": 50,
+      "pooled_rmse": 0.5795101916417759
+    },
+    "ridge": {
+      "macro_target_mae": 0.48407888455527454,
+      "macro_target_rmse": 1.6720177554629234,
+      "macro_target_r2_defined_only": -9.735871930829429,
+      "r2_defined_target_count": 50,
+      "pooled_rmse": 2.064645347187005
+    }
+  },
+  "ridge_error_concentration": {
+    "largest_error_beer": "156",
+    "top1_squared_error_fraction": 0.8935741333659757,
+    "top5_squared_error_fraction": 0.9425739817533378
+  }
+}

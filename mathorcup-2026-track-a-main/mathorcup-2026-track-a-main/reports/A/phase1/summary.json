@@ -1,0 +1,33 @@
+{
+  "run_id": "A-20261024-001",
+  "target_scale": "observed_standardized_unverified_inverse",
+  "validation_version": "exploratory-beer-sorted-shuffled-kfold-v0",
+  "metric_version": "standardized-oof-regression-v0",
+  "metrics": {
+    "train_mean": {
+      "macro_target_mae": 0.4175462644176864,
+      "macro_target_rmse": 0.5691845508928198,
+      "macro_target_r2_defined_only": -0.008893641616242225,
+      "r2_defined_target_count": 50,
+      "pooled_rmse": 0.5795101916417759
+    },
+    "ridge": {
+      "macro_target_mae": 0.48407888455527454,
+      "macro_target_rmse": 1.6720177554629234,
+      "macro_target_r2_defined_only": -9.735871930829429,
+      "r2_defined_target_count": 50,
+      "pooled_rmse": 2.064645347187005
+    }
+  },
+  "limitations": [
+    "Exploratory engineering only; team confirmation of modeling and validation is pending.",
+    "Targets are the 50 observed standardized columns in attachment 4, not original 0-6 scores.",
+    "Targets were standardized per taster and aggregated; complete raw ratings/parameters are unavailable.",
+    "Targets include 26 numeric and 24 parent-intensity-derived descriptors; no binary interpretation is used.",
+    "Single shuffled KFold is neither style-stratified nor brewery-grouped nor external validation.",
+    "No hyperparameter selection or statistical significance claim; alpha is fixed in the config.",
+    "Small style slices describe errors only; no reliable style-specific inference is claimed.",
+    "No inverse chemical transforms, threshold checks, Top-3 or generation claims in this stage.",
+    "No attachment 2/5/6/7/8 or existing SHAP/importance is used as model input or selection evidence."
+  ]
+}

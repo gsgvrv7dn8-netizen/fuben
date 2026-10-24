@@ -1,0 +1,53 @@
+{
+  "purpose": "Lightweight shared evidence; not C independent acceptance",
+  "files": [
+    {
+      "file": "summary.json",
+      "source_run": "A-20261024-001",
+      "sha256": "42465128b802ddc8ed517a944b2a52915511ddcdc653e5002bdfb08778b19c2e",
+      "size_bytes": 1718
+    },
+    {
+      "file": "target_metrics.csv",
+      "source_run": "A-20261024-001",
+      "sha256": "af5873d528cafc54f637d97b399e8195055bd1b7eb81cc011ce6447c3301f5fc",
+      "size_bytes": 8243
+    },
+    {
+      "file": "fold_target_metrics.csv",
+      "source_run": "A-20261024-001",
+      "sha256": "ca442b974b8af9a2ca8e4fd939424d3003c98fcdb11ed03c41ee388455afa79c",
+      "size_bytes": 41568
+    },
+    {
+      "file": "fold_style_counts.csv",
+      "source_run": "A-20261024-001",
+      "sha256": "13051e0b06e56f21f0769d9eebfd1cbcbca1ad673895f2a5db7e2c2159f0fff3",
+      "size_bytes": 458
+    },
+    {
+      "file": "style_metrics.csv",
+      "source_run": "A-20261024-001",
+      "sha256": "176374066e700220fc47959e7a4a9562e1d1b2fc52c0aef0b2c7c74528bf4a2e",
+      "size_bytes": 2617
+    },
+    {
+      "file": "requested_config.json",
+      "source_run": "A-20261024-001",
+      "sha256": "51a334db4a6c2bf7f639509fdc1860326fdfcca48bdabd0d2437640fd8e037fd",
+      "size_bytes": 268
+    },
+    {
+      "file": "resolved_config.json",
+      "source_run": "A-20261024-001",
+      "sha256": "d390d6fca2c171ff8ecb94b085c94f9a2afa0800b2b147e369a36eb080c5dc8a",
+      "size_bytes": 278
+    },
+    {
+      "file": "same-environment-audit.json",
+      "source_run": "phase1 audit",
+      "sha256": "e632539530bbb988fa6397fc11483aceef78da161d5399a4dbd395e0093d7e45",
+      "size_bytes": 1897
+    }
+  ]
+}
